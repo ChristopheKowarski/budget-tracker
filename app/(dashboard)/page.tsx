@@ -20,7 +20,7 @@ async function page() {
   });
 
   if (!userSettings) {
-    redirect("/wiazrd");
+    redirect("/wizard");
   }
 
   return (
